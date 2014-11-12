@@ -24,25 +24,15 @@ public class main {
         Scanner nar1= new Scanner(System.in);
         System.out.println("digite los numeros");
         int n=nar1.nextInt();
+     
         
-        int na;
         
-             if (n % 2 == 0)
-              na=n/2;
-             
-             
-             else
-            na=((3*n)+1);
-            
-             
-         
-        // arboles.insertar(new nodo (na));
+        arboles.insertar(n);
              
         }     
          arboles.show();
          System.out.println(" ");
-         arboles.show();
-         System.out.println(" ");
+         
          
 }
 

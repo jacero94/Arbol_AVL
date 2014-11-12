@@ -14,10 +14,7 @@ public class Arboles_AVL {
      * @param args the command line arguments
      */
     
-   
-    
-        
-     nodo cab;
+nodo cab;
     
        public void insertar(int a){
         if (this.cab==null)
@@ -185,6 +182,7 @@ public class Arboles_AVL {
     
 }
     }
+
 }
 
         

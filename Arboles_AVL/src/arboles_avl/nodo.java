@@ -9,6 +9,7 @@ package arboles_avl;
  * @author JAVIER
  */
 public class nodo {
+  
     int dato;
     int fb;
     
@@ -33,6 +34,7 @@ public class nodo {
                 this.der.insertar(a);
         }
     }
+       
 
     
 }
